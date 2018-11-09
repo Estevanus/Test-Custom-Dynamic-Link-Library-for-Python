@@ -36,7 +36,4 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
-  <ItemGroup>
-    <Library Include="..\..\..\..\..\..\GitHub\Python-3.5.3\PCbuild\win32\python35_d.lib" />
-  </ItemGroup>
 </Project>

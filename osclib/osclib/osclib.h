@@ -15,6 +15,12 @@ extern "C" OSCLIB_API float kali2(float a, float b);
 extern "C" OSCLIB_API double *kali4(double a, double b);
 extern "C" OSCLIB_API double kali5(double a, double b);
 extern "C" OSCLIB_API int loopAll(int max);
-//extern "C" OSCLIB_API PyObject kali3(float a, PyObject b);
+extern "C" OSCLIB_API PyObject *kali3(PyObject *a, PyObject *b);
+extern "C" OSCLIB_API PyObject kali6(PyObject a, PyObject b);
+
+
+// ----------------------------- My Lib Data -----------------------------
+extern "C" OSCLIB_API double getMaxSpeed(double force, double airDensity, double drag, double frontalArea);
+// -----------------------------------------------------------------------
 
 
